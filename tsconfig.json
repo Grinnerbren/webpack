@@ -4,13 +4,13 @@
     "module": "commonjs",
     "lib": ["es2017", "dom"],
     "allowJs": true,
-    "checkJs": true,
-    "noEmit": true,
+    "checkJs": false,
+    "noEmit": false,
     "strict": false,
     "noImplicitThis": true,
-    "alwaysStrict": true,
+    "alwaysStrict": false,
     "types": ["node"],
-    "esModuleInterop": true
+    "esModuleInterop": false
   },
   "include": ["declarations.d.ts", "bin/*.js", "lib/**/*.js", "tooling/**/*.js"]
 }
